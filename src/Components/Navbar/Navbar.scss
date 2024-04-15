@@ -1,0 +1,34 @@
+nav {
+  .container {
+    padding: 0rem 2rem;
+  }
+
+  .logo {
+    a {
+      font-size: var(--font-large);
+      font-weight: var(--bold-weight);
+      color: var(--btn-bg);
+    }
+  }
+
+  li {
+    display: inline-flex;
+    padding: 1rem 1rem;
+    a {
+      font-size: var(--font-medium);
+    }
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  @media (max-width: 1108px) {
+    .container .inner-navigation-menu {
+      display: none;
+    }
+    .menu-icon {
+      display: initial;
+    }
+  }
+}

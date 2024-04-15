@@ -5,10 +5,19 @@ html {
 }
 
 :root {
-  -description-large-screen-font: 3rem;
-  -description-small-screen-font: 2rem;
-  -headers-large-screen-font: 5rem;
-  -description-small-screen-font: 3rem;
+  --description-large-screen-font: 3rem;
+  --description-small-screen-font: 2rem;
+  --font-xlarge:5rem;
+  --font-large:3.6rem;
+  --font-medium:1.7rem;
+  --description-small-screen-font: 3rem;
+  --btn-bg:#e60d52;
+  --white:#fff;
+  --black:#000;
+
+  --medium-weight:600;
+  --bold-weight:700;
+
 }
 
 a {
@@ -22,6 +31,7 @@ ul {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  position:relative;
 }
 
 body {
@@ -29,4 +39,20 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Outfit", sans-serif;
+}
+
+.flex{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+.universal-btn{
+  border:none;
+  background:var(--btn-bg);
+  color:var(--white);
+  padding:1rem 5rem;
+  cursor: pointer;
+
+  font-weight:var(--medium-weight);
+  
 }
