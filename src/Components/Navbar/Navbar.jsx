@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="nav">
       <div className="container flex">
         <div className="logo">
-          <a href="#">PCCI.EMALI</a>
+          <a href="#">PCCI</a>
         </div>
 
         <div className="inner-navigation-menu flex">
