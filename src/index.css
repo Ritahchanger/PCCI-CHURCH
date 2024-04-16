@@ -83,3 +83,9 @@ body {
   cursor: pointer;
 
 }
+
+.section-headers{
+  text-align: center;
+  font-size:var(--font-xlarge);
+  font-weight:var(--font-medium);
+}
