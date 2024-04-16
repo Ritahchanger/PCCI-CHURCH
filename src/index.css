@@ -32,19 +32,20 @@ ul {
   max-width: 1200px;
   margin: 0 auto;
   position:relative;
+  padding:0.3rem 2rem;
 }
-
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Outfit", sans-serif;
 }
-
 .flex{
   display:flex;
   align-items:center;
   justify-content:space-between;
+  text-align:center;
+  align-content:center;
 }
 .universal-btn{
   border:none;
@@ -52,7 +53,5 @@ body {
   color:var(--white);
   padding:1rem 5rem;
   cursor: pointer;
-
   font-weight:var(--medium-weight);
-  
 }
