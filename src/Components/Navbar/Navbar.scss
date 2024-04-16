@@ -25,6 +25,15 @@ nav {
             padding: 0 1.4rem;
             a {
               font-size: var(--font-medium);
+              color:var(--white)
+            }
+            p{
+              display:none;
+              transition:All 0.5s;
+            }
+            p:hover{
+              color:green;
+              transform:translateX(10px);
             }
           }
         }
@@ -33,12 +42,13 @@ nav {
 
     @media (max-width: 1070px) {
       .centered-menu {
-        display: flex;
+        display:block;
         position: absolute;
         top: 100%;
         width: 100%;
         flex-direction: column;
-        left: -1rem;
+        // left: -200%;
+        left:-1%;
         .navigation-menu {
           width: 100%;
           ul {
@@ -60,11 +70,13 @@ nav {
               cursor: pointer;
               border-bottom: 1px solid #ccc;
               a {
-                color: var(--black);
+                color:var(--white);
               }
               p {
                 margin-right:47px;
-                font-size: 2rem;
+                font-size:var(--font-large);
+                display:initial;
+                color:var(--white)
               }
             }
           }

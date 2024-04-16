@@ -1,11 +1,12 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
+import "./Header.scss"
 
 const Header = () => {
   return (
-    <div className="Header">
+    <section className="section header">
       <Navbar />
-    </div>
+    </section>
   );
 };
 

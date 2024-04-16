@@ -1,8 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 
 import "./Navbar.scss";
 
+
+
 const Navbar = () => {
+
+
+  const [ showNavBar,setShowNavBar]= useState(false);
+
+
+  const displayNavBar = () =>{
+    
+  }
+
+
+
   return (
     <nav className="nav">
       <div className="container flex">
