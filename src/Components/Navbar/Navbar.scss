@@ -47,8 +47,9 @@ nav {
         top: 100%;
         width: 100%;
         flex-direction: column;
-        // left: -200%;
-        left:-1%;
+        left: -200%;
+        transition:all 0.5s;
+      
         .navigation-menu {
           width: 100%;
           ul {
@@ -81,6 +82,11 @@ nav {
             }
           }
         }
+      }
+      .centered-menu.active{
+
+        left:-1rem;
+
       }
 
       .menu-icon {

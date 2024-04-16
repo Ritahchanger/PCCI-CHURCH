@@ -2,19 +2,12 @@ import React, { useState } from "react";
 
 import "./Navbar.scss";
 
-
-
 const Navbar = () => {
+  const [showNavBar, setShowNavBar] = useState(false);
 
-
-  const [ showNavBar,setShowNavBar]= useState(false);
-
-
-  const displayNavBar = () =>{
-    
-  }
-
-
+  const displayNavBar = () => {
+    setShowNavBar(!showNavBar);
+  };
 
   return (
     <nav className="nav">
@@ -22,7 +15,10 @@ const Navbar = () => {
         <div className="logo">
           <a href="#">PCCI</a>
         </div>
-        <div className="centered-menu flex">
+
+        {/* <div className="centered-menu flex"> */}
+
+        <div className={`centered-menu flex ${showNavBar ? "active" : ""}`}>
           <div className="navigation-menu">
             <ul>
               <li>
@@ -73,7 +69,7 @@ const Navbar = () => {
           <button className="universal-btn">JOIN US</button>
         </div>
 
-        <div className="menu-icon">
+        <div className="menu-icon" onClick={displayNavBar}>
           <i class="fa-sharp fa-solid fa-bars"></i>
         </div>
       </div>
