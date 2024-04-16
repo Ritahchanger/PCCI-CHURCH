@@ -40,30 +40,51 @@ nav {
         flex-direction: column;
         left: -1rem;
         .navigation-menu {
-            width:100%;
+          width: 100%;
           ul {
             flex-direction: column;
-            width:100%;
+            width: 100%;
             li {
               height: 40px;
               padding: 0.2rem 1rem;
               margin: 9px;
-              margin-left:-2rem;
+              margin-left: -2rem;
               display: flex;
               align-items: center;
-              justify-content:start;
-              width:100%;
+              justify-content: space-between;
+              width:92%;
+              
               cursor: pointer;
-              border-bottom:1px solid #CCC;
+              border-bottom: 1px solid #ccc;
               a {
                 color: var(--black);
+              }
+              p{
+                margin-right: 0.7rem;
+                font-size:2rem;
               }
             }
           }
         }
       }
+     
       .menu-icon {
         display: block;
+      }
+    }
+
+    @media(max-width:377px){
+      .centered-menu{
+        .navigation-menu{
+          ul{
+            li{
+              width:88%;
+              p{
+                margin-right:1rem;
+              }
+            }
+          }
+        }
       }
     }
   }

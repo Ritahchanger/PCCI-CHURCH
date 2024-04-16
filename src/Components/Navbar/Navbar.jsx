@@ -14,24 +14,46 @@ const Navbar = () => {
             <ul>
               <li>
                 <a href="#">HOME</a>
+
+                <p>
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </p>
               </li>
               <li>
                 <a href="#">ABOUT US</a>
+                <p>
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </p>
               </li>
               <li>
                 <a href="#">SERVICES</a>
+                <p>
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </p>
               </li>
               <li>
                 <a href="#">EVENTS</a>
+                <p>
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </p>
               </li>
               <li>
                 <a href="#">MINISTRIES</a>
+                <p>
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </p>
               </li>
               <li>
                 <a href="#">CONTACT US</a>
+                <p>
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </p>
               </li>
               <li>
                 <a href="#">DONATE</a>
+                <p>
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </p>
               </li>
             </ul>
           </div>
