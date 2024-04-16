@@ -5,13 +5,24 @@
       gap:2rem;
       align-items:center;
       justify-content:center;
+      flex-direction: column;
       .card {
         padding: 10px;
         border: 1px solid #ccc;
-        .box:nth-child(2){
-            margin-top:2rem;
+      }
+      .card:nth-child(1){
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        gap:1rem;
+      }
+
+      @media(max-width:520px){
+        .card:nth-child(1){
+            flex-direction: column;
         }
       }
+
     }
 
     @media(max-width:676px){
