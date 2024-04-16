@@ -33,7 +33,9 @@ html {
 a {
   text-decoration: none;
 }
-
+img{
+  width:100%;
+}
 ul {
   list-style: none;
 }
@@ -88,4 +90,10 @@ body {
   text-align: center;
   font-size:var(--font-xlarge);
   font-weight:var(--font-medium);
+}
+.card-description{
+  font-size:var( --font-medium);
+}
+.card-title{
+ font-size:var(--description-small-screen-font); 
 }

@@ -1,0 +1,24 @@
+.about {
+  .container {
+    .grid {
+      display:flex;
+      gap:2rem;
+      align-items:center;
+      justify-content:center;
+      .card {
+        padding: 10px;
+        border: 1px solid #ccc;
+        .box:nth-child(2){
+            margin-top:2rem;
+        }
+      }
+    }
+
+    @media(max-width:676px){
+        .grid{
+            flex-direction:column;
+        }
+    }
+
+  }
+}
