@@ -48,7 +48,10 @@ nav {
         width: 100%;
         flex-direction: column;
         left: -200%;
-        transition:all 0.5s;
+        transition:all 0.5s; z-index:9;
+        background:rgba(0,0,0,0.9);
+
+
       
         .navigation-menu {
           width: 100%;

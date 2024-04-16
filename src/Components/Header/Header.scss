@@ -1,7 +1,29 @@
 .header{
-    background:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../../Assets/Images/banner-image.jpg");
+    background:linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85)),url("../../Assets/Images/banner-image.jpg");
     background-size:cover;
     background-position:center;
     background-attachment:fixed;
+    color:var(--white);
 
+    .container{
+        height:100%;
+        .content-header{
+            position:absolute;
+            top:40%;
+            left:50%;
+            width:90%;
+            transform:translate(-50%,-50%);
+            text-align:start;
+            .hero-button{
+                display:inline-flex;
+                justify-content:space-between;
+                align-items:center;
+                padding:0.3rem 1rem;
+                height:40px;
+            }
+        }
+    
+    }
+
+    
 }

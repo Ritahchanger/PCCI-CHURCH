@@ -25,6 +25,8 @@ html {
   --black:#000;
   --medium-weight:600;
   --bold-weight:700;
+  --color-gray:#ccc;
+  --description-font:2.5rem;
 
 }
 
@@ -62,4 +64,22 @@ body {
   padding:1rem 5rem;
   cursor: pointer;
   font-weight:var(--medium-weight);
+}
+.big-description{
+  font-size:var(--font-xlarge)
+}
+.description{
+  color:var(--color-gray);
+  font-size:var( --description-font);
+}
+.hero-button{
+  display:inline-block;
+  color:var(--white);
+  font-size:var(--font-medium) ;
+
+  background:var(--btn-bg);
+  width:200px;
+  padding:1.4rem;
+  cursor: pointer;
+
 }
